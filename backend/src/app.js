@@ -9,7 +9,7 @@ const baseUrl = "http://localhost:3000";
 
 app.use(
   cors({
-    origin: [baseUrl], // Add all allowed frontend origins here
+    origin: [baseUrl, "http://localhost:5173"], // Add all allowed frontend origins here
     credentials: true,
   })
 );
