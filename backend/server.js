@@ -7,7 +7,7 @@ connect();
 
 const server = require("http").createServer(app);
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://stackwave-project-backend.onrender.com";
 
 const io = new Server(server, {
   cors: {

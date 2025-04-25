@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 
 export default function ProfilePage() {
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://stackwave-project-backend.onrender.com";
   const { id } = useParams();
 
   const [questions, setQuestions] = useState([]);

@@ -8,7 +8,7 @@ export default function UsersPage() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
 
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://stackwave-project-backend.onrender.com";
 
   useEffect(() => {
     const fetchUsers = async () => {

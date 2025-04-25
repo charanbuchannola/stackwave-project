@@ -15,7 +15,7 @@ export default function HomePage() {
   const { user } = useAuth();
   const [questions, setQuestions] = useState([]);
 
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://stackwave-project-backend.onrender.com";
 
   useEffect(() => {
     const fetchQuestions = async () => {

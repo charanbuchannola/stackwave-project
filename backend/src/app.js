@@ -5,7 +5,7 @@ const chatRoutes = require("./routes/chat.routes");
 const cors = require("cors");
 const app = express();
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://stackwave-project-backend.onrender.com";
 
 app.use(
   cors({

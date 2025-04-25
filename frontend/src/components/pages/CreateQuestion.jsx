@@ -27,7 +27,7 @@ export default function AskQuestion() {
   const [tags, setTags] = useState("");
   const [preview, setPreview] = useState(false);
 
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://stackwave-project-backend.onrender.com";
 
   const insertAtCursor = (text) => {
     const textarea = document.getElementById("markdown-editor");
