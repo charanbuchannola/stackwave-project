@@ -23,12 +23,12 @@ const Navbar = () => {
         ) : (
           <>
             <button className="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600"
-              onClick={navigate("/login")}
+              onClick={()=>navigate("/login")}
             >
               Login
             </button>
             <button className="px-4 py-2 rounded-lg bg-gray-700 hover:bg-gray-600"
-            onClick={navigate("/register")}
+            onClick={()=>navigate("/register")}
             >
               Register
             </button>
