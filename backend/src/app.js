@@ -5,11 +5,11 @@ const chatRoutes = require("./routes/chat.routes");
 const cors = require("cors");
 const app = express();
 
-const baseUrl = "https://stackwave-project-backend.onrender.com";
+const baseUrl_frontend = "https://stackwave-project-frontend.onrender.com";
 
 app.use(
   cors({
-    origin: [baseUrl, "http://localhost:5173"], // Add all allowed frontend origins here
+    origin: [baseUrl_frontend, "http://localhost:5173"], // Add all allowed frontend origins here
     credentials: true,
   })
 );
