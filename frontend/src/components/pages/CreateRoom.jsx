@@ -12,7 +12,7 @@ export default function CreateRoom() {
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   const handleCreate = async () => {
     if (!question.trim() || !tech.trim()) return;
@@ -31,7 +31,9 @@ export default function CreateRoom() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
       <Card className="w-full max-w-md p-6 space-y-4 shadow-xl">
-        <h2 className="text-2xl font-semibold text-center">Create a Chat Room</h2>
+        <h2 className="text-2xl font-semibold text-center">
+          Create a Chat Room
+        </h2>
 
         <div className="space-y-2">
           <Label htmlFor="question">Question</Label>

@@ -18,7 +18,7 @@ export default function ChatRoom() {
   const messagesEndRef = useRef(null);
   const ignoreChange = useRef(false); // <== Important fix
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   useEffect(() => {
     const newSocket = io(baseUrl, {

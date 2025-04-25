@@ -10,7 +10,7 @@ const Register = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   const handleFileChange = (e) => {
     setMedia(e.target.files[0]);

@@ -1,6 +1,6 @@
 import { io } from "socket.io-client";
 
-const baseUrl = "https://stackwave-h1x0.onrender.com";
+const baseUrl = "http://localhost:3000";
 
 const socket = io(baseUrl, {
   auth: {

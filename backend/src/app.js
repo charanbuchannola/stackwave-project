@@ -5,7 +5,7 @@ const chatRoutes = require("./routes/chat.routes");
 const cors = require("cors");
 const app = express();
 
-const baseUrl = "https://stackoverflow-frontend-466c.onrender.com";
+const baseUrl = "http://localhost:3000";
 
 app.use(
   cors({

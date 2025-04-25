@@ -10,7 +10,7 @@ export default function QuestionDetailsPage() {
   const [newAnswer, setNewAnswer] = useState("");
   const [submitError, setSubmitError] = useState("");
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   useEffect(() => {
     const fetchQuestion = async () => {

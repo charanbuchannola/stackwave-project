@@ -10,7 +10,7 @@ export default function RoomsPage() {
   const [currentUser, setCurrentUser] = useState(null);
   const navigate = useNavigate();
   const token = localStorage.getItem("token");
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   useEffect(() => {
     const fetchData = async () => {

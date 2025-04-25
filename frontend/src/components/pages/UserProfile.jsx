@@ -12,7 +12,7 @@ export default function UserProfile() {
   const [activeTab, setActiveTab] = useState("Summary");
   const token = localStorage.getItem("token");
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   useEffect(() => {
     const fetchUser = async () => {

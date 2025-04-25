@@ -8,7 +8,7 @@ export const useAuth = () => useContext(AuthContext);
 const Context = ({ children }) => {
   const [user, setUser] = useState(null);
 
-  const baseUrl = "https://stackwave-h1x0.onrender.com";
+  const baseUrl = "http://localhost:3000";
 
   const checkAuth = async () => {
     try {

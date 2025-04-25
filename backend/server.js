@@ -7,7 +7,7 @@ connect();
 
 const server = require("http").createServer(app);
 
-const baseUrl = "https://stackoverflow-frontend-466c.onrender.com";
+const baseUrl = "http://localhost:3000";
 
 const io = new Server(server, {
   cors: {
