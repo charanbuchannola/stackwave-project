@@ -24,7 +24,7 @@ const Login = () => {
         console.log("Login successful:", res);
 
         localStorage.setItem("token", res.data.token);
-        navigate("/feed");
+        navigate("/");
       })
       .catch((err) => {
         console.error("Login failed:", err.response.data.message);
